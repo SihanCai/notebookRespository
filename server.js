@@ -5,8 +5,6 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 const root = __dirname + '/build'
-const port = process.env.PORT || 3000
-
 server.use(express.static(root, { maxAge: 86400000 }))
 server.use(middlewares)
 const reactRouterWhiteList = ['/create', '/edit/:itemId']
@@ -15,6 +13,6 @@ server.get(reactRouterWhiteList, function (request, response) {
 })
 
 server.use(router)
-server.listen(port, () => {
+server.listen(3000, () => {
   console.log('JSON Server is running')
 })
