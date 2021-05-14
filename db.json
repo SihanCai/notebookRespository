@@ -295,6 +295,21 @@
       "timestamp": 1620864000000,
       "id": "_6gne11vrh",
       "cid": "2"
+    },
+    {
+      "title": "New",
+      "price": 50,
+      "date": "2021-05-13",
+      "monthCategory": "2021-5",
+      "timestamp": 1620864000000,
+      "id": "_nkrbjh8tn",
+      "cid": "1",
+      "category": {
+        "name": "Travel",
+        "iconName": "ios-plane",
+        "id": "1",
+        "type": "outcome"
+      }
     }
   ]
 }
