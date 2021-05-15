@@ -1,12 +1,12 @@
-# Getting Started with Notebook Record
+# Getting Started with Notebook
 
-
+Description: you can use the notebook to record your personal expense and income record. There are two modes. You can check your records using two modes: graph mode and list mode. You can also edit each expense record and income record. All the record will be permanently stored in the db.json file.
 
 ## Available Scripts
 
-In the project directory, you can run:
+You need to install dependencies
 
-### `npm start`
+### `npm install`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
