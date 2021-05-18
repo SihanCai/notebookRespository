@@ -24,12 +24,12 @@ export const parseToYearAndMonth = (str) => {
     }
 };
 
-export const flatternArr = (arr = []) => {
+export const flatternArr = (arr) => {
     return arr.reduce((map, item) => {
-        map[item.id] = item
-        return map
+      map[item.id] = item
+      return map
     }, {})
-};
+}
 
 export const isValidDate = (dateString) => {
     const regEx = /^\d{4}-\d{2}-\d{2}$/;
