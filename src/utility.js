@@ -24,7 +24,7 @@ export const parseToYearAndMonth = (str) => {
     }
 }
 
-export const flatternArr = (arr) => {
+export const flatternArr = (arr = []) => {
     return arr.reduce((map, item) => {
         map[item.id] = item
         return map
